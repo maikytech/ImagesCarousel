@@ -12,7 +12,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let imagesName = ["1", "2", "3"]
+    let imagesName = ["1", "2", "3", "4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
