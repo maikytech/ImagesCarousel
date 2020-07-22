@@ -12,7 +12,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let imagesName = ["1", "2", "3", "4"]
+    let imagesName:[String] = ["1", "2"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,18 +27,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imagesCell", for: indexPath) as! imagesCollectionViewCell
         
-        cell.imagePerCell.addSubview(imagesName[indexPath])
+        cell.imagePerCell.image = UIImage(named: imagesName[indexPath.row])
         
         return cell
     }
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
+    
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return 15
+        
+        return imagesName.count
     }
     
     //Configure size cell
