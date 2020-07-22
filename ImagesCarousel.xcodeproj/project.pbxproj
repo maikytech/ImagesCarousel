@@ -13,6 +13,7 @@
 		65C1C5DB24C10D24007D9597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C1C5D924C10D24007D9597 /* Main.storyboard */; };
 		65C1C5DD24C10D27007D9597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C1C5DC24C10D27007D9597 /* Assets.xcassets */; };
 		65C1C5E024C10D27007D9597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C1C5DE24C10D27007D9597 /* LaunchScreen.storyboard */; };
+		65E8299024C8B41B00006783 /* imagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E8298F24C8B41B00006783 /* imagesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		65C1C5DC24C10D27007D9597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C1C5DF24C10D27007D9597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65C1C5E124C10D27007D9597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E8298F24C8B41B00006783 /* imagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				65C1C5D324C10D24007D9597 /* AppDelegate.swift */,
 				65C1C5D524C10D24007D9597 /* SceneDelegate.swift */,
+				65E8298F24C8B41B00006783 /* imagesCollectionViewCell.swift */,
 				65C1C5D724C10D24007D9597 /* ViewController.swift */,
 				65C1C5D924C10D24007D9597 /* Main.storyboard */,
 				65C1C5DC24C10D27007D9597 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				65C1C5D824C10D24007D9597 /* ViewController.swift in Sources */,
 				65C1C5D424C10D24007D9597 /* AppDelegate.swift in Sources */,
+				65E8299024C8B41B00006783 /* imagesCollectionViewCell.swift in Sources */,
 				65C1C5D624C10D24007D9597 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
